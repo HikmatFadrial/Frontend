@@ -1,0 +1,218 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Patua One', cursive;
+	scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('../img/bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.container {
+    font-family: 'Patua One', cursive;
+    padding: 0;
+	margin: auto;
+	display: grid;
+	margin: 5px 15px;
+	position: relative;
+}
+
+.container h1 {
+    font-size:37px;
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    top: 25px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: black;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 370px;
+
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 10px;
+    color: black;
+    border-radius: 20px;
+    margin-left: 0px;
+}
+
+header ul li a:hover {
+    background: hotpink;
+    color: white;
+}
+
+/* .active {
+    background: hotpink;
+    color: wh;
+} */
+
+.sec {
+    text-align: center;
+    margin: 150px 150px;
+    letter-spacing: 1px;
+}
+
+.sec h1 {
+    margin-bottom: 10px;
+}
+
+
+#btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 40px;
+    background: hotpink;
+    color: black;
+    font-size: 1,5em;
+    margin-top: 40px;
+}
+
+#btn:hover {
+    background: #6A82FB;
+    color: black;
+}
+
+.content {
+    position: relative;
+    padding: 70px;
+}
+
+.content h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+#tittle1 {
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+
+#text1 {
+    text-align: justify;
+    margin-right: 450px;
+    
+}
+
+#img1 {
+    margin-left: 45%;
+    margin-top: -330px; 
+}
+
+#tittle2, #text2 {
+    margin-left: 55%;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+#text2 {
+    padding-right: 45px;
+    
+}
+
+#img2 {
+    margin-top: -260px;
+    margin-left: -50px;
+    margin-bottom: 50px;
+}
+
+#tittle3 {
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+
+#text3 {
+    text-align: justify;
+    padding: 0px 0px;
+    margin-right: 450px;
+}
+
+#img3 {
+    margin-left: 50%;
+    margin-top: -290px; 
+}
+
+.contact {
+    width: 90%;
+    margin: 10px 70px;
+    display: grid;
+}
+
+.link {
+    margin: 100px;
+    padding-top: 10px;
+}
+
+.row {
+    margin: 30px;
+}
+
+.btn {
+    float: right;
+    padding: 20px;
+    margin: 30px;
+}
+
+.contact h2 {
+    margin-top: -30px;
+}
+
+.contact ul {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.contact ul li {
+    margin-left: 15px;
+}
+
+.contact ul li img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    height: 50px;
+}
+
+footer p {
+    margin-top: 20px;
+    padding-top: 7px;
+}
+
+
